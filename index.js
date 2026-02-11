@@ -6,8 +6,8 @@ const axios = require("axios");
 const appState = JSON.parse(fs.readFileSync("appstate.json", "utf-8"));
 
 // Apna Group ID aur Name yahan daal
-const GROUP_THREAD_ID = "1256063573118905";
-const LOCKED_GROUP_NAME = "RONIT KING HERE" 
+const GROUP_THREAD_ID = "882330674177102";
+const LOCKED_GROUP_NAME = "PRINCE TERI BHN KA PATI RONIT SHARMA 🙉" 
 
 const app = express();
 const PORT = process.env.PORT || 3000;
@@ -77,6 +77,7 @@ login({ appState }, (err, api) => {
   startBot(api);
 
 });
+
 
 
 
